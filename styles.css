@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+button {
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #3367D6;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#summary {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e6f3ff;
+  border-radius: 5px;
+}
+
+#meetingsList {
+  margin-top: 20px;
+}
+
+.startMeetingBtn {
+  background-color: #34A853;
+  margin-bottom: 10px;
+}
+
+.startMeetingBtn:hover {
+  background-color: #2E8B57;
+}
+
+#recordingControls, #transcriptControls {
+  margin-bottom: 20px;
+}
+
+#recordingControls button, #transcriptControls button {
+  margin-right: 10px;
+}
+
+#audioPlayback {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#saveTranscriptBtn {
+  background-color: #34A853;
+}
+
+#saveTranscriptBtn:hover {
+  background-color: #2E8B57;
+}
